@@ -1,0 +1,423 @@
+.box{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(230, 230, 230);
+}
+
+.user_header{
+    width: 100%;
+}
+.user_header .header_banner{
+    position: absolute;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.2);
+}
+.user_header .header_banner p{
+    line-height: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+}
+.user_header .header_banner p img{
+    width: 26px;
+    height: 26px;
+    float: left;
+    margin-top: -3px;
+    margin-right: 20px;
+}
+.user_header .header_banner span:last-child{
+    float: right;
+    color: #c2c2c2;
+    font-size: 18px
+}
+.user_header .header_login{
+    width: 100%;
+    padding-top: 50px;
+    height: 140px;
+    line-height: 80px;
+    background: #1d1f26;
+}
+.user_header .header_login img{
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin: 0 20px 0 10px;
+}
+.user_header .header_login span{
+    color: #c2c2c2;
+
+}
+.user_header .header_login a{
+    position: absolute;
+    right: 15px;
+    top: 75px;
+    color: #d09d3a;
+    border: 1px solid #d09d3a;
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.banner img{
+    width: 100%;
+}
+
+.mod_hd{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.mod_hd .mod_hd_title{
+    padding: 27px 15px 8px 15px;
+}
+.mod_hd .mod_hd_title h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #222;
+    line-height: 20px;
+}
+.mod_hd .mod_hd_title h3 span:last-child{
+    float: right;
+    font-size: 12px;
+    color: #979797;
+}
+
+.mod_hd_contet{
+    width: 100%;
+}
+.mod_hd_contet li{
+    margin-left: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0 10px;
+}
+.mod_hd_contet li:last-child{
+    border: none;
+}
+ .left{
+    width: 70%;
+    float: left;
+}
+.mod_hd_contet .left p{
+    line-height: 25px;
+}
+.mod_hd_contet .left p span{
+    font-size: 16px;
+}
+.mod_hd_contet .left p s{
+    text-decoration: none;
+    color: #d09d3a;
+}
+.mod_hd_contet .left p span.last{
+    margin-left: 20px;
+    padding: 0 4px;
+    background-color:#f3554e; 
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.mod_hd_contet .left p:last-child{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #979797;
+}
+ .right{
+     width: 20%;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+ .right a{
+    display: block;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    background-color: #d09d3a;
+    color: white;
+    line-height: 30px;
+    border-radius: 15px;
+}
+
+.mod_bd{
+    background-color: white;
+    margin-bottom: 25px;
+}
+.mod_bd li{
+    position: relative;
+    margin-left: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0 10px;
+}
+.mod_bd li:last-child{
+    border: none;
+}
+.mod_bd img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+}
+.mod_bd p{
+    padding-left: 25px;
+    line-height: 25px;
+}
+.mod_bd p:first-child{
+    font-size: 15px;
+}
+.mod_bd p:last-child{
+    font-size: 13px;
+    height: 25px;
+    color: #979797;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.share{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+.share a{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20px;
+}
+.share a i{
+    display: inline-block;
+    margin-left: -15px;
+    width: 20px;
+    height: 20px;
+    vertical-align: -4px;
+    background: url('../images/icon_paypic.png') no-repeat;
+    background-size: 60px 20px;
+}
+.share a:first-child{
+    border-right: 1px solid #e0e0e0;
+}
+.share a:last-child i{
+    background-position: -20px 0;
+}
+.VIP{
+    overflow: auto;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.VIP .VIP_title{
+    padding-bottom: 15px;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+.VIP ul{
+    width: 100%;
+    display: -webkit-box;
+    margin-bottom: 20px;
+}
+.VIP li{
+    position: relative;
+    -webkit-flex: 0 0 23.2%;
+    flex: 0 0 23.2%;
+    width: 23.2%;
+    text-align: center;
+}
+.VIP li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-image: linear-gradient(to right,transparent,transparent 50%,#f0f0f2 50%,#f0f0f2 100%);
+    background-image: -webkit-linear-gradient(left,transparent,transparent 50%,#f0f0f2 50%,#f0f0f2 100%);
+    background-size: 1px 100%;
+    background-repeat: repeat-y;
+    background-position: right 0;
+}
+.VIP li::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-image: -webkit-linear-gradient(top,transparent,transparent 50%,#f0f0f2 50%,#f0f0f2 100%);
+    background-image: linear-gradient(to bottom,transparent,transparent 50%,#f0f0f2 50%,#f0f0f2 100%);
+    background-size: 100% 1px;
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+}
+.VIP p{
+    line-height: 30px;
+}
+.VIP img{
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+
+.VIP_send{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+.VIP_send .VIP_send_title{
+    padding: 15px;
+    font-weight: normal;
+}
+.VIP_send .VIP_send_title span:first-child{
+    float: left;
+}
+.VIP_send .VIP_send_title span:last-child{
+    float: right;
+    font-size: 12px;
+    color: #979797;
+}
+.VIP_send .VIP_send_list{
+    overflow: auto;
+}
+.VIP_send  .VIP_send_list ul{
+    width: 100%;
+    display: -webkit-box;
+}
+.VIP_send  .VIP_send_list .item{
+    position: relative;
+    flex: 0 0 46%;
+    -webkit-flex: 0 0 46%;
+    width: 46%;
+    height: 140px;
+    text-align: center;
+    margin:0 10px;
+}
+.VIP_send  .VIP_send_list .item img{
+    height: 80%;
+    display: block;
+    width: 100%;
+    background: #DDDEDF url('../images/imgholder.png') center center no-repeat;
+    background-size: 40px auto;
+}
+
+.movies{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+.movies .movies_title{
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.movies .movies_title span:first-child{
+    float: left;
+    font-size: 16px
+}
+.movies .movies_title span:last-child{
+    float: right;
+    font-size: 14px;
+    color: #979797;
+}
+.movies .movies_content li{
+    width: 33.33333%;
+    float: left;
+}
+.movies .movies_content li a{
+    width: 100%;
+    display: block;
+    padding: 0 5px;
+    text-align: center;
+   
+    
+}
+.movies .movies_content li a>span{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.movies .movies_content li a sup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #87b211;
+    display: block;
+    width: 50px;
+    color: white;
+    line-height: 12px;
+    font-size: 10px;
+    padding-top: 1px;
+    transform: rotate(-45deg) translate(-13px,-7px);
+    -webkit-transform:rotate(-45deg) translate(-13px,-7px);
+}
+.movies .movies_content li img{
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+}
+footer .footer_title{
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+footer .footer_title span:first-child{
+    float: left;
+    font-size: 16px;
+}
+footer .footer_title span:last-child{
+    float: right;
+    font-size: 14px;
+    color: #979797;
+}
+footer .down{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+footer .down a{
+    display: inline-block;
+    margin: 0 15px;
+}
+footer .down a img{
+    margin:5px auto;
+    width: 48px;
+    height: 49px;
+}
+footer .text{
+    width: 100%;
+    overflow: hidden;
+}
+footer .text p{
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #e0e0e0;
+}
+footer .text p:last-child{
+    border: none;
+}
+
+
